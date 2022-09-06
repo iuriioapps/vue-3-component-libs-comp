@@ -8,6 +8,14 @@
         "postinstall": "nuxt prepare"
     },
     "devDependencies": {
-        "nuxt": "3.0.0-rc.9"
+        "fibers": "^5.0.3",
+        "nuxt": "3.0.0-rc.9",
+        "sass": "^1.54.8",
+        "sass-loader": "^13.0.2",
+        "unplugin-auto-import": "^0.11.2",
+        "unplugin-vue-components": "^0.22.4"
+    },
+    "dependencies": {
+        "element-plus": "^2.2.16"
     }
 }

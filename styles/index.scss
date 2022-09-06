@@ -1,0 +1,8 @@
+// import dark theme
+@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
+
+:root {
+    font-family: 'Open Sans', serif;
+    --el-color-success: red;
+    --el-border-radius-round: 4px;
+}
